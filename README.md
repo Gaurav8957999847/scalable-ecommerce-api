@@ -15,7 +15,7 @@ Welcome to **Ain**, a comprehensive and high-performance backend solution for mo
 The following diagram illustrates the typical customer journey from onboarding to post-purchase review.
 
 ```mermaid
-graph TD
+graph LR
     A[1. User Registration / Login] --> B[2. Browse Products]
     B --> C{Search/Filter?}
     C -- Yes --> D[Apply Filters/Pagination]
@@ -107,5 +107,4 @@ Authorization is handled via a custom `protect` middleware.
 
 ---
 
-## 🛡️ License
-Distributed under the ISC License. © 2024 Ain.
+
